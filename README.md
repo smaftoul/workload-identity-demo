@@ -3,7 +3,8 @@
 1. Create an RSA keypair: `./1-create-key.py keys/gk`
 2. Generate identity provider's JWKS: `./2-idp-jwks.py keys/gk`
 3. Update pool provider in terraform with correct JWKs, and apply
-4. Generate a token (once) using the private key: ./3-sign-token.py keys/gk > token
+4. Generate a token (once) using the private key: `./3-sign-token.py keys/gk > token`. The signed token contains a claims with information of the current process using opentelemetry resource detector (for the fun).
+Here, the identity provider and the workload is the same, the workload generates an identity for itself.
 5. Generate a credential file, no request to api, a static file without credentials:
 ```
 PROJECT_ID="..." PROJECT_NUMBER="..." POOL_ID="pool" PROVIDER_ID="provider" gcloud iam workload-identity-pools create-cred-config  \
