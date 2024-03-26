@@ -1,0 +1,59 @@
+{
+  "aud": [
+    "audience"
+  ],
+  "iss": "https://some-address",
+  "sub": "some-workload",
+  "weather": {
+    "paris": "Partly cloudy"
+  },
+  "process": {
+    "num_threads": 3,
+    "username": "auser",
+    "cpu_times": [
+      0.00313225,
+      0.004851541,
+      0,
+      0
+    ],
+    "memory_percent": 0.019121170043945312,
+    "nice": 0,
+    "num_fds": 4,
+    "cpu_percent": 0,
+    "ppid": 90716,
+    "uids": [
+      501,
+      501,
+      501
+    ],
+    "exe": "/usr/bin/pbcopy",
+    "name": "pbcopy",
+    "num_ctx_switches": [
+      39,
+      0
+    ],
+    "create_time": 1711442323.627411,
+    "memory_info": [
+      6569984,
+      417993850880,
+      599,
+      10
+    ],
+    "cmdline": [
+      "pbcopy"
+    ],
+    "terminal": "/dev/ttys022",
+    "cwd": "/Users/auser/workspace/jwtfs",
+    "gids": [
+      20,
+      20,
+      20
+    ],
+    "threads": null,
+    "status": "running",
+    "memory_full_info": null,
+    "pid": 90895
+  },
+  "iat": 1711442323,
+  "exp": 1711528723
+}
