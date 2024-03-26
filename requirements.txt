@@ -1,0 +1,8 @@
+Authlib==1.3.0
+cryptography==42.0.2
+fusepy==3.0.1
+opentelemetry_resourcedetector_process==0.3.0
+protobuf==5.26.0
+psutil==5.9.8
+Requests==2.31.0
+fusepy==3.0.1
